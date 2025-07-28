@@ -1,0 +1,89 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fff8f0;
+}
+
+/* Header with background image */
+header {
+    
+  background-image: url('images/header-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #e67e22;
+}
+
+/* Sections */
+section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+#home {
+  background-color: #fdebd0;
+}
+
+#menu {
+  background-image: url('images/food-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  backdrop-filter: brightness(0.7);
+}
+
+#menu ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+#menu li {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* About */
+#about {
+  background-color: #f9e79f;
+}
+
+/* Contact */
+#contact {
+  background-color: #f5cba7;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #d35400;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+}
